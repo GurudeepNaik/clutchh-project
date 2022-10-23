@@ -46,6 +46,7 @@ const Table = () => {
       <div className="link">
       <Link to="/Dashboard-win-by-wickets">Win By Wickets</Link>
       <Link to="/Dashboard-win-by-runs">Win By Runs</Link>
+      <Link to="/">Home</Link>
       </div>
       <h4 className="note">Note: Please Select Year in Drop Down and You can see More Data On Click of Row </h4>
       <div className="secondFieldContainer">
