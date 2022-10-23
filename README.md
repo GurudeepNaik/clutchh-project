@@ -15,13 +15,13 @@ Won by wickets or runs in that perticular year
 So The Data will we available even if You Refresh the page 
 
 ### Library Used
-1)App is Made of React Library
-2)Used Material UI for Table and Popup-Model
-3)Used Fusioncharts for Bar Graph to Show Who Won by Most Runs and Wickets
-4)Used Papaparse for Paring the .CSV File to Json Object
-5)Used React Router Dom For Routing
+### 1)App is Made of React Library
+### 2)Used Material UI for Table and Popup-Model
+### 3)Used Fusioncharts for Bar Graph to Show Who Won by Most Runs and Wickets
+### 4)Used Papaparse for Paring the .CSV File to Json Object
+### 5)Used React Router Dom For Routing
 
 ### Bonus Points
-1)Created The Web App in React JS
-2)Have Made Mobile responsive
-3)This App Is Offline Available Too
+### 1)Created The Web App in React JS
+### 2)Have Made Mobile responsive
+### 3)This App Is Offline Available Too
