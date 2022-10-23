@@ -50,7 +50,7 @@ h1.table_heading {
 
 .link {
   display: flex;
-  max-width: 500px;
+  max-width: 650px;
   margin: auto;
   justify-content: space-evenly;
   align-items: center;
@@ -113,5 +113,8 @@ a {
   border-radius: 10px;
   padding: 20px;
   overflow: scroll;
+}
+.Container {
+  width: 96vw;
 }
 }

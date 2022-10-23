@@ -46,6 +46,7 @@ const Dashboardwinbywickets = () => {
      <div className="link">
      <Link to="/Table">Table</Link>
      <Link to="/Dashboard-win-by-runs">Win By Runs</Link>
+     <Link to="/">Home</Link>
      </div>
      <div className="secondFieldContainer">
       <select value={year} onChange={handleSelectChange} className="selectField">

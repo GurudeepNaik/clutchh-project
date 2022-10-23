@@ -5,6 +5,7 @@ import importComplete from "../../Images/importComplete.png";
 import { useNavigate } from "react-router-dom";
 import { parse } from "papaparse";
 import { useAPI } from "../../context/useContext";
+import { Link } from "react-router-dom";
 import "./ImportStyle.css";
 
 export default function Import() {
@@ -28,6 +29,11 @@ export default function Import() {
   return (
     <div className="Container">
       <h1 className="heading">Please Import CSV File Of Matches to Go Ahead</h1>
+      <div className="link">
+      <Link to="/Dashboard-win-by-wickets">Win By Wickets</Link>
+      <Link to="/Dashboard-win-by-runs">Win By Runs</Link>
+      <Link to="/Table">Table</Link>
+      </div>
       <div className="rowContainer">
         <div className="row2">
           <button className="importBtn" onClick={() => handleFlag("click", !flag.click)}>
